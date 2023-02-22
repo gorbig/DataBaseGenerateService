@@ -25,6 +25,16 @@ public class PersonaFullModel {
     @Field(name="job_address")
     private String job_addresses;
 
+    private String phoneNumber;
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     public Long getId() {
         return id;
     }
